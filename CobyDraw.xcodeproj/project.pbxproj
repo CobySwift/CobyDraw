@@ -17,6 +17,8 @@
 		CB18BEFD2A7A370800BCB11E /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB18BEFC2A7A370800BCB11E /* GameOverView.swift */; };
 		CB18BEFF2A7A3E0400BCB11E /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB18BEFE2A7A3E0400BCB11E /* GameView.swift */; };
 		CB18BF012A7A401D00BCB11E /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB18BF002A7A401D00BCB11E /* DrawingView.swift */; };
+		CBF12A7D2A7BF80B00BF8DFC /* MatchManager+GKMatchmakerViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF12A7C2A7BF80B00BF8DFC /* MatchManager+GKMatchmakerViewControllerDelegate.swift */; };
+		CBF12A7F2A7BFACF00BF8DFC /* MatchManager+GKMatchDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF12A7E2A7BFACF00BF8DFC /* MatchManager+GKMatchDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,9 @@
 		CB18BEFC2A7A370800BCB11E /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
 		CB18BEFE2A7A3E0400BCB11E /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		CB18BF002A7A401D00BCB11E /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
+		CBF12A7B2A7BF57500BF8DFC /* CobyDraw.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CobyDraw.entitlements; sourceTree = "<group>"; };
+		CBF12A7C2A7BF80B00BF8DFC /* MatchManager+GKMatchmakerViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MatchManager+GKMatchmakerViewControllerDelegate.swift"; sourceTree = "<group>"; };
+		CBF12A7E2A7BFACF00BF8DFC /* MatchManager+GKMatchDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MatchManager+GKMatchDelegate.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +52,8 @@
 		CB18BEDC2A7A202C00BCB11E = {
 			isa = PBXGroup;
 			children = (
+				CBF12A7E2A7BFACF00BF8DFC /* MatchManager+GKMatchDelegate.swift */,
+				CBF12A7C2A7BF80B00BF8DFC /* MatchManager+GKMatchmakerViewControllerDelegate.swift */,
 				CB18BEE72A7A202C00BCB11E /* CobyDraw */,
 				CB18BEE62A7A202C00BCB11E /* Products */,
 			);
@@ -63,6 +70,7 @@
 		CB18BEE72A7A202C00BCB11E /* CobyDraw */ = {
 			isa = PBXGroup;
 			children = (
+				CBF12A7B2A7BF57500BF8DFC /* CobyDraw.entitlements */,
 				CB18BEE82A7A202C00BCB11E /* CobyDrawApp.swift */,
 				CB18BEEA2A7A202C00BCB11E /* ContentView.swift */,
 				CB18BEEC2A7A202D00BCB11E /* Assets.xcassets */,
@@ -157,6 +165,8 @@
 			files = (
 				CB18BEEB2A7A202C00BCB11E /* ContentView.swift in Sources */,
 				CB18BEF92A7A330D00BCB11E /* MatchManager.swift in Sources */,
+				CBF12A7F2A7BFACF00BF8DFC /* MatchManager+GKMatchDelegate.swift in Sources */,
+				CBF12A7D2A7BF80B00BF8DFC /* MatchManager+GKMatchmakerViewControllerDelegate.swift in Sources */,
 				CB18BEF72A7A32F300BCB11E /* MenuView.swift in Sources */,
 				CB18BF012A7A401D00BCB11E /* DrawingView.swift in Sources */,
 				CB18BEFB2A7A331400BCB11E /* Misc.swift in Sources */,
@@ -288,6 +298,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CobyDraw/CobyDraw.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CobyDraw/Preview Content\"";
@@ -317,6 +328,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CobyDraw/CobyDraw.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CobyDraw/Preview Content\"";

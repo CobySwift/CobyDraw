@@ -52,8 +52,6 @@
 		CB18BEDC2A7A202C00BCB11E = {
 			isa = PBXGroup;
 			children = (
-				CBF12A7E2A7BFACF00BF8DFC /* MatchManager+GKMatchDelegate.swift */,
-				CBF12A7C2A7BF80B00BF8DFC /* MatchManager+GKMatchmakerViewControllerDelegate.swift */,
 				CB18BEE72A7A202C00BCB11E /* CobyDraw */,
 				CB18BEE62A7A202C00BCB11E /* Products */,
 			);
@@ -81,6 +79,8 @@
 				CB18BEFC2A7A370800BCB11E /* GameOverView.swift */,
 				CB18BEFE2A7A3E0400BCB11E /* GameView.swift */,
 				CB18BF002A7A401D00BCB11E /* DrawingView.swift */,
+				CBF12A7E2A7BFACF00BF8DFC /* MatchManager+GKMatchDelegate.swift */,
+				CBF12A7C2A7BF80B00BF8DFC /* MatchManager+GKMatchmakerViewControllerDelegate.swift */,
 			);
 			path = CobyDraw;
 			sourceTree = "<group>";

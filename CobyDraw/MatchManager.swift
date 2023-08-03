@@ -23,7 +23,7 @@ class MatchManager: NSObject, ObservableObject {
     
     @Published var remainingTime = maxTimeRemaining {
         willSet {
-            if isTimeKeeper { sendString("timer\(newValue)") }
+            if isTimeKeeper { sendString("timer:\(newValue)") }
             if newValue < 0 { gameOver() }
         }
     }
@@ -105,7 +105,7 @@ class MatchManager: NSObject, ObservableObject {
             drawPrompt = ""
             score = 0
             remainingTime = maxTimeRemaining
-            lastReceivedDrawing = PKDrawing()
+            lastReceivedDrawing = PKDrawing() 
         }
         
         isTimeKeeper = false
